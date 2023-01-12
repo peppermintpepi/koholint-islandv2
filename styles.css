@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Zelda_Demo;
+    src: url('Zelda_Demo.ttf');
+}
+
+.header {
+    background-image: url('img/header.jpg');
+    height: 350px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#island-name{
+    font-family: Zelda_Demo;
+    font-size: 52px;
+    color: #cde9ec;
+    margin:130px 40px 1px;
+    text-align: center;
+    background-color: #523908;
+    width: 720px;
+    height: 95px;
+}
+
+#island-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #cde9ec;
+    text-align: center;
+    background-color: #0e4317;
+    width: 720px;
+    height: 100px;
+    margin: 1px 40px;
+}
+
+#activities {
+    background-color: #cfda99;
+    height: 500px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #0e4317;
+    text-align: center;
+}
+
+.info {
+    width: 300px;
+    text-align: center;
+}
+
+#activities-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    border: 10px solid #0e4317;
+    width: 250px;
+}
+
+h1 {
+    font-family: Zelda_Demo;
+    color: #0e4317;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: Zelda_Demo;
+    color: #0e4317;
+    justify-content: center;
+}
+
+.tour-guide {
+    font-family: 'Roboto', sans-serif;
+    color: #cfda99;
+    background-color: #0e4317;
+    border-bottom: 20px solid #cfda99;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#guide {
+    border-radius: 20px;
+    border: 10px solid #cfda99;
+    height: 250px;
+    margin: 35px 50px;
+}
+
+#zelda-title {
+    font-family: Zelda_Demo;
+    color: #cfda99;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+#guide-info {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+span {
+    font-size: 25px;
+    font-weight: bolder;
+}
